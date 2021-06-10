@@ -6,7 +6,9 @@ RUN apt-get --yes install git
 
 RUN apt-get --yes install man
 
-RUN aapt-get --yes install net-tools
+RUN apt-get --yes install net-tools
+
+RUN apt-get --yes install iputils-ping
 
 RUN apt-get --yes install tor
 

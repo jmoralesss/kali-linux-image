@@ -4,6 +4,7 @@ kali linux image with the following tools/languages
 - git
 - man
 - net-tools
+- ping
 - tor
 - vim
 - python
