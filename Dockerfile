@@ -18,6 +18,6 @@ RUN apt-get --yes install gcc
 
 RUN apt-get --yes install golang
 
-RUN mkdir repos && cd repos && git clone https://github.com/maxrooted/instashell && cd
+RUN mkdir repos && git clone https://github.com/maxrooted/instashell ./repos
 
 # docker build -t kali-linux -f Dockerfile . 
