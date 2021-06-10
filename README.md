@@ -6,6 +6,7 @@ kali linux image with the following tools/languages
 - net-tools
 - ping
 - tor
+- wire shark
 - vim
 - python
 - gcc
