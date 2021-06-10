@@ -1,6 +1,8 @@
 FROM kalilinux/kali-rolling
 
-RUN apt-get --yes update && apt-get --yes install git
+RUN apt-get --yes update 
+
+RUN apt-get --yes install git
 
 RUN apt-get --yes install man
 
